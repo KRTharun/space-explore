@@ -1,0 +1,403 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y:auto
+}
+
+.space-backgroung1{
+    background:url("../assets/home/background-home-desktop.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height:auto;
+    margin: -67px 0px;
+    /* overflow:hidden; */
+  
+
+}
+#explore-btn{
+    font-weight: 600;
+    font-size: 22px;
+}
+#empt_line{
+    border-bottom: 2px solid #fff;
+    margin: 48px -33px;
+}
+#menu_bar li:hover{
+    /* font-size: 20px; */
+    border-bottom: 3px solid #ffff;
+}
+#menu ul{
+    color: white;
+    display: flex ;
+    margin: 12px 40px;
+    backdrop-filter: blur(20px);
+}
+.header{
+    margin: 5% 38px;
+    padding: 5% 0px 0px 0px;
+}
+#menu li{
+   padding: 20px 20px 20px 20px;
+    
+}
+#menu a{
+    color: #ffff ;
+}
+/* #menu{
+ background-color: rgba(0,0,0, 0.1);
+
+} */
+/* #manu_bar{
+    margin: 12px 40px;
+    backdrop-filter: blur(20px);
+} */
+.explore{
+    background: #ffff;
+text-align: center;
+width: 35%;
+padding: 15% 10px 15% 10px;
+border-radius: 256px;
+margin: 18% 30%;
+position: absolute;
+  
+}
+.back-exp{
+    background: #ffff;
+text-align: center;
+width: 40%;
+padding: 18% 67px 18% 67px;
+border-radius: 256px;
+margin: 98px 176px;
+position: absolute;
+opacity: .6;
+
+
+/* transition: padding 2s;
+transition: width .8s; */
+
+}
+/* .back-exp:hover{
+    padding: 18% 67px 18% 67px;
+     width: 45%;
+     position: absolute;
+
+} */
+/* margin: 37% 52%; */
+
+/* ============================ */
+.space-backgroung{
+    background: url("../assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: 900px;
+    margin: -67px 0px;
+}
+.ghara{
+    display: flex;
+}
+.ghara li{
+    padding-right: 10%;
+}
+.ghara a{
+    color: #ffff;
+}
+#moon1 {
+    color: #fff;
+    font-size: 100px;
+    padding: 3% 6px 34px 75px;
+}
+
+/* **** */
+#europa1{
+    color: #fff;
+    font-size: 100px;
+    padding: 3% 6px 34px 39px;
+
+}
+ /* ========================================== */
+.spacecrew-backgroung1{
+    background: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    height: 900px;
+    margin: -67px 0px;
+}
+.meetCrew{
+    color: #fff;
+    padding: 22% 0px 0px 0px;
+}
+#cspe:focus, #cspe:hover {
+    background: #a8acadb4;
+     opacity: 0.6 ;
+    transition: 0.3s;
+  }
+.meetCrew span{
+    color: #958383;
+    padding-right: 2%;
+    font-weight: 600;
+}
+
+.crews-detail{
+    color: #fff;
+    margin: 25% 0px;
+}
+.crews-detail h5{
+    color: #958383;
+    font-weight: 500;
+}
+.crews-detail h2{
+    padding-top: 1%;
+    font-size: 50px;
+    padding-bottom: 6%; 
+    width: 123%;
+}
+.crews-detail p{
+    width: 113%;
+}
+#CrewImg{
+    height: 575px;
+margin: 159px 32%;
+position: absolute;
+}
+.crews-members{
+    margin: 39% 0px;
+    position: absolute;
+}
+.crews-members input{
+    margin-right: 2%;
+
+}
+.dot-indicators  button{
+    height: 17px;
+border-radius: 88px;
+width: 4%;
+margin-right: 5%;
+
+}
+.dot-indicators {
+    padding-top: 0%;
+    position: absolute;
+    width: 100%;
+    margin: 49% 0px;
+}
+.dot-indicators2{
+    padding-top: 23%;
+position: absolute;
+width: 100%;
+}
+.dot-indicators2  button{
+    height: 17px;
+border-radius: 88px;
+width: 4%;
+margin-right: 5%;
+
+}
+.dot-indicators3{
+    padding-top: 157PX;
+  position: absolute;
+  width: 100%;
+}
+
+.dot-indicators3 button{
+    height: 17px;
+border-radius: 88px;
+width: 4%;
+margin-right: 5%;
+
+}
+.dot-indicators4{
+    padding-top: 157PX;
+    position: absolute;
+    width: 100%;
+}
+.dot-indicators4 button{
+    height: 17px;
+border-radius: 88px;
+width: 4%;
+margin-right: 5%;
+
+}
+.dot-indicators5{
+    padding-top: 157PX;
+    position: absolute;
+    width: 100%;
+}
+.dot-indicators5 button{
+    height: 17px;
+border-radius: 88px;
+width: 4%;
+margin-right: 5%;
+
+}
+
+
+
+
+
+
+
+/* ------------------ */
+ /* explore button */
+ 
+ /* ------------ */
+.large-button{
+    position: relative;
+    display: grid;
+    z-index: 1;
+    place-items: center;
+    padding: 0 2em;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    text-decoration: none;
+    width: 35%;
+margin: 222px 20%;
+   
+}
+.large-button::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: 60%;
+    /* background: hsl( var(--clr-white) / .15); */
+    background-color: hsl(0, 0%, 100%, 25%);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 500ms linear, transform 750ms ease-in-out;
+   
+}
+.large-button:hover::after,
+.large-button:focus::after {
+    opacity: 1;
+    transform: scale(2.5);
+}
+
+ /* -------------------- */
+ /* ==============================technology============================== */
+ .space-technolgy-bg{
+    background:url('../assets/technology/background-technology-desktop.jpg');
+    /* height: 100vh; */
+    height: auto;
+    background-size: cover;
+    
+ }
+ .top-bar{
+    padding-top: 5%;
+ }
+ #spaceRocket{
+    width: 400px;
+    height: 400px;
+
+ }
+ .spaceTechnology{
+    color: #fff;
+    margin-left: 5%;
+    padding-bottom: 2%;
+ }
+ .spaceTechnology span{
+    color: hsl(0, 8%, 55%);
+    padding-right: 1%;
+ }
+ .spaceTechnology button{
+    padding: 21px 25px 21px 25px;
+    border-radius: 100px;
+    margin-top: 40px;
+ }
+ .spaceTechnology h3{
+    font-size: 55px;
+    font-family: serif;
+ }
+ .spaceTechnology p{
+    width: 70%;
+    text-align: justify;
+ }
+ .join-us{
+padding-bottom: 3%;
+ }
+ .join-us h3{
+    color:#ffff;
+    font-weight: 500;
+ }
+ .join-us button{
+    padding: 3% 10% 3% 10%;
+    border-radius: 20px;
+ }
+ /* ************************Join member********************************** */
+ .joinUS{
+    background:url("../assets/home/istockphoto-.jpg")no-repeat;
+    height: 100vh;
+    background-size: cover;
+    padding: 2% 0px 5% 0px;
+
+ }
+ #join-blur{
+ 
+    height: 100vh;
+    position: absolute;
+ }
+ .joinUS h2{
+color: #fff;
+backdrop-filter: blur(5px);
+padding: 1% 0% 2% 0%;
+text-align: center;
+ }
+ .registor-login{
+    margin-top: 3%;
+ }
+ .login-card{
+        background: #ff80;
+        backdrop-filter: blur(5px);
+        color: #ffffff80;
+        font-family: cursive;
+        width: 77%;
+        border: 5px solid #ffffff80;
+        padding-bottom: 2%;
+        
+ }
+ .login-card:hover{
+    border:5px solid #ffff;
+    color: #ffff;
+
+ }
+ .registor-body{
+    background: #ff80;
+    backdrop-filter: blur(5px);
+    color: #ffffff80;
+    font-family: cursive;
+    /* width: 77%; */
+    border: 5px solid #ffffff80;
+    padding-bottom: 2%;
+ }
+ .registor-body:hover{
+    color: #ffff;
+    border: 5px solid #ffff;
+ }
+
+ .registor-body input{
+    width: 90%;
+ }
+
+ .password-record{
+    color: #fff;
+    background: hsl(0, 1%, 15%,0.5);
+ }
+ .password-record td,tr{
+    text-align: center;
+ }
+ .password-record a{
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .password-record a:hover{
+   color: red;
+   font-size: 20px;
+   font-weight: 600;
+ }
+ #prf{
+    width: 70px;
+    height: 67px;
+    border-radius: 69px;
+ }
+ /* -----------------------dashbord------------------------ */
+ 
